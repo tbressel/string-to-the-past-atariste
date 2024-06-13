@@ -1,0 +1,58 @@
+              ****** ZELDA - A STRING TO THE PAST ******
+
+Alors j'ai du zipper mes fichiers ZELDA1.PRG et ZELDA2.PRG car ils 
+‚taient beaucoup trop volumineux, ‚tant donn‚ que je d‚veloppe
+sur un ATARI 1040 Ste avec 4Mo de RAM et un ULTRA SATAN ... Donc
+je me quelque peu ... "‚tal‚" lol.
+
+Il faudra donc d‚zipper les 2 fichiers .ZIP, sur un disque dur
+ou bien dans une RAM disque. (j'ai mis avec un petit programme qui 
+sert … d‚zipper : drag and drop)
+
+-----------------------------------------------------------------
+
+ZELDA1.PRG : C'est juste l'intro du "jeu" avec une saisie et un 
+scroll-texte.
+
+Bon normalement jusqu'… l'‚cran d'introduction y'a pas de bugs.
+Il faudra juste appuyer sur la touche [ESC], pour sortir du screen
+de pr‚sentation.
+
+On navigue avec les touches curseur haut et bas pour choisir la 
+ligne o— l'on va ‚crire le nom du joueur. Puis touche [ENTER] pour
+valider la ligne (‡… se voit pas beaucoup mais quand c'est valid‚
+les ailles de la petite f‚e marque un temps d'arrˆt trŠs court
+avant de reprendre leur animation. 
+
+Ensuite ATTENTION gros bug : Si on saisit un nom avec un nombre impaire 
+de lettre et que l'on valide : ‡… plante.
+Il faut donc obligatoirement saisir un nombre paire de lettre (je sais pas
+pourquoi mais je verrai tout ‡… quand je m'y remetterai)
+
+voil… et pour quitter … tout moment durant le scroll texte : [ESC]
+
+
+-----------------------------------------------------------------
+
+ZELDA2.PRG : C'est le "jeu" en lui mˆme, mais alors attention y'a beaucoup
+de bugs notamment quand on change de tableau, le "level design" fait que parfois
+on arrive dans le d‚cors et l… .... c'est la merdasse.
+Z'ˆtes pr‚venu : c'est E-X-P-E-R-I-M-E-N-T-A-L
+En gros on se d‚place au clavier avec les touches curseurs, on peut entrer
+les troncs d'arbre (heu ‚vitez celui du premier ‚cran), on peut 
+‚galement entrer dans les maisons.
+
+Les touches W et X servent … chopper des buissons et de les d‚truire une 
+fois attrap‚.
+La map m‚morise les buissons que l'on a d‚racin‚s ou non.
+
+------------------------------------------------------------------
+
+J'insiste sur le fait que c'est EXPERIMENTAL, c'est … dire que je 
+test plein de chose afin de voir ce qui marche ou pas et "comment" 
+ou "pourquoi".
+Je compte aller jusqu'… un certain stade histoire de continuer mon 
+apprentissage de l'assembleur sur cette machine.
+Puis, … un moment je dirait "STOOOOOP" on reprend les choses depuis z‚ro
+et cette fois ci on compresse .... d‚compresse et on tient compte de 
+la place limit‚ des disquettes lol.
